@@ -1,4 +1,4 @@
-# smithemas_youtube_based_page
+# smithemas_youtube_webpage
 Web page that looks like youtube video player page
 
 Additional description about the project and its features.
@@ -6,7 +6,7 @@ Additional description about the project and its features.
 ## Built With
 
 - HTML,
-- CSS,
+- CSS
 
 ### Milestone
 
