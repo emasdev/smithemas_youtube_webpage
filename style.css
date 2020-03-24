@@ -14,8 +14,6 @@
   /* background-color: #666; */
 }
 
-
-
 /* searchbar */
 .nav * {
   box-sizing: border-box;
@@ -66,50 +64,120 @@
 }
 
 /* Main Section */
-.main{
-  display:flex;
+.main {
+  display: flex;
   justify-content: space-between;
 }
 
-.main .video{
-  flex-basis:75%;
+.main .video {
+  flex-basis: 75%;
 }
-.main .aside{
+.main .aside {
   flex-basis: 23%;
 }
-.main .aside .item{
+.main .aside .item {
   display: flex;
 }
-.main .aside .item div{
+.main .aside .item div {
   flex: 1;
 }
-.main .aside .item img{
-  width:100%;
-  height:85%;
+.main .aside .item img {
+  width: 100%;
+  height: 85%;
 }
 
-.main .aside .item .vid_info{
+.main .aside .item .vid_info {
   display: flex;
   /* flex: 1; */
   flex-direction: column;
   margin-left: 7px;
 }
-.main .aside .item .vid_info p{
-  margin:0 0 2px 0;
-  padding:0;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.main .aside .item .vid_info p {
+  margin: 0 0 2px 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.main .aside .item .vid_info p:first-child{
+.main .aside .item .vid_info p:first-child {
   font-weight: bold;
 }
 
-.main .aside .item .vid_info .vid_auth{
+.main .aside .item .vid_info .vid_auth {
   font-size: 14px;
-  color:#9b9b9b;
+  color: #9b9b9b;
 }
 
-.main .aside .item .vid_info .vid_views{
+.main .aside .item .vid_info .vid_views {
   font-size: 14px;
-  color:#9b9b9b;
+  color: #9b9b9b;
+}
+
+/* Video description */
+
+.video .desc .details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  color: #606060;
+}
+
+.video .desc h1 {
+  font-size: 26px;
+}
+
+.video .desc .details .buttons {
+  text-align: right;
+}
+
+.video .desc .details .buttons a {
+  color: #606060;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+.video .details-2 {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+}
+
+.video .details-2 .desc {
+  margin: 0px;
+  padding: 1em;
+}
+
+.video .details-2 img {
+  padding: 1em;
+  border-radius: 45px;
+}
+
+.video .details-2 .suscribe {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: end;
+  padding: 1em;
+}
+
+.video .details-2 .suscribe .author {
+  font-size: 1.3em;
+  margin: 0px;
+  font-weight: bold;
+}
+
+.video .details-2 .suscribe .suscribers {
+  margin: 0px;
+  color: #606060;
+}
+
+.video .details-2 .suscribe .suscribe-btn {
+  text-align: right;
+}
+
+.video .details-2 .suscribe .suscribe-btn button {
+  height: 37px;
+  width: 161px;
+  background-color: #c00;
+  font-size: 15px;
+  color: white;
+  border-radius: 3.1px;
 }
