@@ -39,7 +39,7 @@ Video
 
 ## Live Webpage
 
-[Click Here](https://rawcdn.githack.com/emasdev/smithemas_youtube_webpage/b76436e43ed24a4abe0969703c58014708d90acf/index.html)
+[Click Here](https://rawcdn.githack.com/emasdev/smithemas_youtube_webpage/45f3a4271bb6b5ba318f95359cf1ae71c596b43b/index.html)
 
 ## Authors
 
