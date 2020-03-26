@@ -1,7 +1,10 @@
 # smithemas_youtube_webpage
+
 Web page that looks like youtube video player page
 
-Additional description about the project and its features.
+![screenshot](./app_screenshot.png)
+
+This is a webpage that looks so similar to youtube but it isn't the real youtube you know, don't get confused. It's just that we are great web developers so we can do the trick.
 
 ## Built With
 
@@ -34,13 +37,20 @@ Video
 - It shows the title of the video.
 - It shows the number of views.
 
+## Live Webpage
+
+[Click Here](https://rawcdn.githack.com/emasdev/smithemas_youtube_webpage/45f3a4271bb6b5ba318f95359cf1ae71c596b43b/index.html)
+
 ## Authors
 
 👤 **Smith Nkereuwem**
 
 - Github: [@SmithVyne](https://github.com/smithvyne)
 
-
 👤 **Emanuel González**
 
 - Github: [@emasdev](https://github.com/emasdev)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
